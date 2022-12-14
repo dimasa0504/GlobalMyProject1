@@ -12,8 +12,11 @@ double MySub(double a, double b)
 double MyMul(double a, double b) 
 { 
 return a * b; 
+<<<<<<< HEAD
 }
 double MyDiv(double a, double b) 
 { 
 return a / b; 
+=======
+>>>>>>> testing
 }
