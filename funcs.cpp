@@ -1,4 +1,5 @@
 #include "funcs.h"
+#include <cmath>
 
 double MySum(double a, double b) 
 { 
@@ -20,12 +21,7 @@ double MyDiv(double a, double b)
 return a / b; 
 }
 
-int MyPow(int num, int n) 
-{ 
-		int res = num; 
-		for (int i = 1; i < n; i++) 
-		{ 
-			res *= num; 
-		} 
-		return res; 
+double MyPow(double a, double b)
+{
+return exp(b * log(a));
 }
